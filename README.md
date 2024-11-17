@@ -34,19 +34,17 @@
     <img src="cubes/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Using Session Manager</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Set the permissions on all pages individually to control the client's access.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="mailto:﻿"taeyang@cubes.kr">Report Bug</a>
   </p>
 </div>
 
@@ -81,37 +79,28 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 프로젝트 개요
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+페이지별 접근 제어는 네트웍 보안에서 중추적인 역할을 하는 기능입니다. 보다 안전한 환경을 조성하기 위해 클라이언트와 연관된 서버의 세션을 검색하고 해당 세션이 데이터베이스에 저장된 값과 일치하는 지, 무결성을 검증 후 클라이언트의 페이지 접근을 인가합니다.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+접근 제어 요소:
+* 세션 값이 설정되어 있는 지, 확인
+* 서버의 세션 값이 데이터베이스와 일치하는 지, 무결성 확인
+* 모든 값이 이상이 없으며 페이지의 권한과 클라이언트의 권한이 일치하면, 접근 권한 인가 :smile:
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+다만, 세션 값 검증을 위해 데이터베이스에 접근함으로써 서버의 오버헤드를 초래할 수 있습니다.
+세션 값은 쿠키와 다르게 서버 측에서 구동하는 값이기에 확인할 필요는 없지만, 그냥 만들어봤습니다.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+### 사용 언어
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+- <img src="https://img.shields.io/badge/Framework-%23121011?style=for-the-badge"><img src="https://img.shields.io/badge/Synology-B5B5B6?style=for-the-badge&logo=synology&logoColor=white"><img src="https://img.shields.io/badge/2.7.13-515151?style=for-the-badge">
+- <img src="https://img.shields.io/badge/Build-%23121011?style=for-the-badge"><img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white"><img src="https://img.shields.io/badge/7.1.1-515151?style=for-the-badge">
+- <img src="https://img.shields.io/badge/Language-%23121011?style=for-the-badge"><img src="https://img.shields.io/badge/java-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/11-515151?style=for-the-badge">
+- <img src="https://img.shields.io/badge/Project Encoding-%23121011?style=for-the-badge"><img src="https://img.shields.io/badge/UTF 8-EA2328?style=for-the-badge">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
