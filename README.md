@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/5rang9tan/UsingSessionManager">
+  <a href="https://github.com/5rang9tan/Using-Session-Manager">
     <img src="cubes/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
